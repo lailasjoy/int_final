@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Butterfly+Kids&family=Dosis:wght@200..800&family=Gothic+A1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen&family=Stick+No+Bills&display=swap');
+
+body{
+/*	background-color:#ffcc00;*/
+/*	overflow:hidden;*/
+    background-image:url(sqbkg.png);
+    background-size:1870px 1000px;
+	margin:7px;
+	padding:7%;	
+}
+.middle{
+	padding:20px;
+}
+.body2{
+/*	background-color:#ffcc00;*/
+	
+    background-image:url(sqbkg.png);
+    background-size:1870px 1000px;
+	margin:7px;
+	padding:7%;	
+}
+h1{
+
+	font-family: "Josefin Sans", sans-serif;
+	font-weight:light;
+}
+
+.rite{
+	float:right;
+}
+
+.rite:hover{
+	border:2px solid black;
+	border-radius: 50%;
+	transform: scale(1.0);
+}
+
+.lef:hover{
+	border:2px solid black;
+	border-radius:50%;
+	transform: scale(1.0);
+}
+
+.lef{
+	float:left;
+}
+
+p{
+	padding-top:6%;
+	padding-left:20%;
+	padding-right:20%;
+	font-family: "Josefin Sans", sans-serif;
+	color:black;
+	font-size:40px;
+}
+
+span{
+	font-weight: bold;
+	font-family: "Josefin Sans", sans-serif;
+	font-size:60px;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2{
+font-size:25px;
+font-family: "Josefin Sans", sans-serif;
+text-align: center;
+}
+
+button{
+	padding:15px;
+	background-color:transparent;
+	border-radius:10px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size:30px;
+}
+
+.toptag{
+	position:fixed;
+	font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding-top:-10px;
+ 	font-size:20px;
+	padding-bottom:30px;
+	line-height: 9px;
+	color:white;
+}
+
+.toptag2{
+	position:fixed;
+	font-family: "Josefin Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	padding-top:3px;
+	font-size:20px;
+	padding-bottom:3px;
+	line-height: 3px;
+	color:white;
+}
+
+
+.sqimg{
+	padding-left:30%;
+	padding-top:0px;
+	display:flex;
+	width:275px;
+	height: 280px;
+}
+
+.sqimg2{
+	padding-left:30%;
+	padding-top:0px;
+	display:flex;
+	width:175px;
+	height: 180px;
+}
+
+.sqimg:hover{
+	cursor:pointer;
+    display:block;
+	animation: horizontal-shaking 0.35s infinite;
+	transform:scale(1.5);
+	}
+
+
+.sqimg2:hover{
+	cursor:pointer;
+	}	
+
+.horizontal-shake {
+  animation: horizontal-shaking 0.35s infinite;
+}
+
+@keyframes horizontal-shaking{
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.middle{
+ overflow:hidden;
+	font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	font-size:25px;
+	margin:10%;
+	padding:10% 10%;
+}
+
+.middle1{
+	overflow:hidden;
+	font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	font-size:25px;
+	margin:10%;
+	padding-left:10px;
+	padding-bottom:30px;
+}
+body2{
+	overflow:hidden;
+}
+
+.next{
+	float:right;
+	height:45px;
+	width:85px;
+}
+
+.next:hover{
+	display:block;
+	animation: horizontal-shaking 0.35s infinite;
+	transform: scale(3.5);
+}
+
+#logo{
+	height:10px;
+	width:10px;
+}
+
+
+.horizontal-gallery{
+	justify: space-between;
+/*	border:2px red solid;*/
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:26%;
+	padding-bottom: 6%;
+    margin-top: 10px;
+}
+
+.parks-wrapper{
+
+	padding:10px;
+	padding-left:20px;
+/* overflow-x: scroll;*/
+}
+
+.font{
+font-family: "Josefin Sans", sans-serif;
+font-size:40px;
+text-decoration:none;
+}
+
+.parkitem1{
+/*	border:black solid 2px;*/
+	padding-left:20px;
+	padding-bottom:30px;
+	max-height:270px;
+	max-width:300px;
+    min-width: 100px;
+    margin: 0 25px;
+}
+.parkitem2{
+/*	border:black solid 2px;*/
+	padding-left:20px;
+	max-height:250px;
+	max-width:300px;
+    min-width: 100px;
+    margin: 0 25px;
+}
+.parkitem3{
+/*	border:black solid 2px;*/
+	padding-left:20px;
+	padding-bottom:30px;
+	max-height:270px;
+	max-width:300px;
+    min-width: 100px;
+    margin: 0 25px;
+}
+
+#hide {
+  display: none;
+}
+
+.parkitem1:hover + #hide {
+position:fixed;
+font-family: "Josefin Sans", sans-serif;
+display: block;
+padding: 5px;
+color:black;
+background-color: white;
+}
+
+.parkitem2:hover + #hide {
+position:fixed;
+font-family: "Josefin Sans", sans-serif;
+display: block;
+padding: 5px;
+color:black;
+background-color: white;
+}
+
+.parkitem3:hover + #hide {
+position:fixed;
+font-family: "Josefin Sans", sans-serif;
+display: block;
+padding: 5px;
+color:black;
+background-color: white;
+}
+
+.parkitem1:hover{
+	transform:scale(1.5);
+	box-sizing: border-box;
+	border:1px black solid;
+	background-color:#e6b800;
+	border-radius:30px;
+}
+.parkitem2:hover{
+	transform:scale(1.5);
+	box-sizing: border-box;
+	border:1px black solid;
+	background-color:#e6b800;
+	border-radius:30px;
+}
+.parkitem3:hover{
+	transform:scale(1.5);
+	box-sizing: border-box;
+	border:1px black solid;
+	background-color:#e6b800;
+	border-radius:30px;
+
+#squirrel-container{
+	display:flex;
+	flex:wrap;
+padding:50px;
+}
